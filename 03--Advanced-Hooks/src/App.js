@@ -1,13 +1,10 @@
-import SecondUseRefExample from "./components/SecondUseRefExample";
+import CustomHook2 from "./components/customHook-2/CustomHook2";
 
 const App = () => {
-    // useRef(1) we sat default value to 1
-
-    
     return (
         <div className="container">
             <div className="mt-5">
-                <SecondUseRefExample />
+                <CustomHook2 />
             </div>
         </div>
     );
